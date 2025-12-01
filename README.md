@@ -14,32 +14,22 @@ The AI is not used as a chatbot, but as a backend capability that enhances respo
 How This Improves the Student Journey
 
 Students often struggle with:
-
-Understanding complex concepts
-
-Knowing how to study effectively
-
-Identifying what to learn next
+ 1) Understanding complex concepts
+ 2)Knowing how to study effectively
+ 3)Identifying what to learn next
 
 This service helps by:
 
-Providing clear, simplified explanations
-
-Offering concise study advice
-
-Encouraging structured independent learning
-
-Supporting students outside classroom hours
+ 1)Providing clear, simplified explanations
+ 2)Offering concise study advice
+ 3)Encouraging structured independent learning
+ 4)Supporting students outside classroom hours
 
 It could easily be extended into support tools such as:
-
-Assignment helpers
-
-Lecture summaries
-
-Academic advising systems
-
-Revision planning tools
+ 1) Assignment helpers
+ 2) Lecture summaries
+ 3) Academic advising systems
+ 4) Revision planning tools
 
 Structure
 lancaster-ai-student-backend
