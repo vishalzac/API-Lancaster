@@ -12,7 +12,6 @@ def ask_ai(question: str):
     try:
         prompt = f"""
 You are a Lancaster University study assistant.
-
 Answer the question clearly and simply.
 Then provide one useful study tip.
 
@@ -20,16 +19,11 @@ Question:
 {question}
 """
 
-        response = client.chat.completions.create(
-            model="gpt-4.1-mini",
-            messages=[
-                {"role": "system", "content": "You are a helpful university assistant."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.5
+        response = client.responses.create(
+            model="gpt-5-nano",
+            input=prompt,
         )
-
-        answer = response.choices[0].message.content
+        answer = response.output_text  # NEW way to extract text
 
         return {
             "question": question,
@@ -41,3 +35,4 @@ Question:
             "error": "AI service failed",
             "details": str(e)
         }
+
